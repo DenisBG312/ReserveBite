@@ -1,4 +1,4 @@
-# TeenHack 2024 - Ruse
+# This solution was created for TeenHack 22.11.2024 - Ruse
 
 # Overview
 ReserveBite is a React-based web application designed to simplify the process of finding and reserving tables at restaurants. Built with Firebase for backend services and Framer Motion for animations, ReserveBite offers a seamless and interactive user experience.
