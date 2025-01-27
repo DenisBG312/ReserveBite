@@ -1,6 +1,6 @@
 import React from "react";
 import { FaCalendarAlt, FaUtensils, FaCogs } from "react-icons/fa";
-import { motion } from "framer-motion"; // Import Framer Motion
+import { motion } from "framer-motion";
 
 const BenefitsSection = () => {
   return (
@@ -13,17 +13,13 @@ const BenefitsSection = () => {
           Открийте как можем да улесним вашето преживяване в ресторантите.
         </p>
       </div>
-
-      {/* Benefits Grid Section */}
       <div className="flex flex-wrap justify-center gap-12 sm:gap-16 md:gap-20">
-        {/* Benefit 1 */}
         <motion.div
           className="flex flex-col items-center text-center max-w-xs"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          {/* Icon */}
           <motion.div
             className="bg-[#7F9055] p-6 rounded-full mb-6 shadow-lg transform transition duration-300 hover:scale-110 hover:shadow-xl"
             whileHover={{ scale: 1.1, rotate: 10 }}
@@ -34,7 +30,6 @@ const BenefitsSection = () => {
             <FaCalendarAlt className="text-4xl text-white" />
           </motion.div>
           
-          {/* Text */}
           <motion.p
             className="text-gray-800 font-semibold text-xl mb-2"
             initial={{ opacity: 0, y: 20 }}
@@ -55,14 +50,12 @@ const BenefitsSection = () => {
           </motion.p>
         </motion.div>
 
-        {/* Benefit 2 */}
         <motion.div
           className="flex flex-col items-center text-center max-w-xs"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          {/* Icon */}
           <motion.div
             className="bg-[#FF6347] p-6 rounded-full mb-6 shadow-lg transform transition duration-300 hover:scale-110 hover:shadow-xl"
             whileHover={{ scale: 1.1, rotate: -10 }}
@@ -73,7 +66,6 @@ const BenefitsSection = () => {
             <FaUtensils className="text-4xl text-white" />
           </motion.div>
           
-          {/* Text */}
           <motion.p
             className="text-gray-800 font-semibold text-xl mb-2"
             initial={{ opacity: 0, y: 20 }}
@@ -94,14 +86,12 @@ const BenefitsSection = () => {
           </motion.p>
         </motion.div>
 
-        {/* Benefit 3 */}
         <motion.div
           className="flex flex-col items-center text-center max-w-xs"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
         >
-          {/* Icon */}
           <motion.div
             className="bg-[#6A5ACD] p-6 rounded-full mb-6 shadow-lg transform transition duration-300 hover:scale-110 hover:shadow-xl"
             whileHover={{ scale: 1.1, rotate: 10 }}
@@ -112,7 +102,6 @@ const BenefitsSection = () => {
             <FaCogs className="text-4xl text-white" />
           </motion.div>
           
-          {/* Text */}
           <motion.p
             className="text-gray-800 font-semibold text-xl mb-2"
             initial={{ opacity: 0, y: 20 }}
